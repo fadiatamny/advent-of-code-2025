@@ -83,13 +83,13 @@ int main(int argc, char **argv) {
   }
 
   int result = howManyTimesWeHit0(inputFile);
-  std::cout << result << std::endl;
+  std::cout << "Part 1: " << result << std::endl;
 
   inputFile.clear();
   inputFile.seekg(0, std::ios::beg);
 
   result = howManyTimesWeCross0(inputFile);
-  std::cout << result << std::endl;
+  std::cout << "Part 2: " << result << std::endl;
 
   return 0;
 }
